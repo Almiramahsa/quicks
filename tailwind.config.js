@@ -3,6 +3,8 @@ export default {
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
+    "./node_modules/react-tailwindcss-datepicker/dist/index.esm.js",
+
   ],
   theme: {
     extend: {
@@ -34,18 +36,15 @@ export default {
         'quicks-stickers-purple': '#CFCEF9',
         'quicks-stickers-pink': '#F9E0FD',
 
-
-
-
-
-
-
-
-
       },
       fontFamily:{
         lato_regular: ['Lato-Regular'],
         lato_bold: ['Lato-Bold'],
+      },
+      fontSize:{
+        sm: ['12px'],
+        base: ['14px'],
+        md: ['16px'],
       }
     },
   },
