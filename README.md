@@ -1,3 +1,26 @@
+## How to Run
+
+if Need run on your machine:
+
+Clone project
+```
+git clone https://github.com/Almiramahsa/quicks.git
+```
+go to project
+```
+cd quicks
+```
+install npm
+```
+npm install
+```
+start project
+```
+npm start
+```
+
+
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
