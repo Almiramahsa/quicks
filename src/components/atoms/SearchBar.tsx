@@ -1,6 +1,6 @@
 import { FC, useState } from 'react';
 import { Icon } from '@iconify/react';
-import { SearchBarProps } from '../utils/component';
+import { SearchBarProps } from '../../utils/component';
 
 
 
@@ -19,14 +19,14 @@ const SearchBar: FC<SearchBarProps> = ({ onSearch }) => {
 
 
   return (
-    <div className="flex items-center relative ">
+    <div className="flex items-center relative w-auto">
       <input
         type="text"
         value={searchTerm}
         onChange={handleInputChange}
         placeholder="Search..."
-        className="border rounded px-2 py-1 pr-8 " 
-      />
+        className="border rounded border-quicks-primary-black text-quicks-primary-black px-2 py-1 pr-8 w-full" 
+        />
       <button
         onClick={handleSearch}
         className="absolute right-2 top-1/2 transform -translate-y-1/2 cursor-pointer"
